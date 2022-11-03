@@ -1,6 +1,7 @@
 package package2;
 //import java.io.File;
 import java.io.*;
+import java.util.Scanner;
 
 public class Klasa1 {
 
@@ -23,10 +24,13 @@ public class Klasa1 {
 		System.out.printf("ostali ce biti ispisani: %.2f , %.4f, %s\n",g,h,s);
 		System.out.println("nova linijaa\n");
 		
-		/*var in = new BufferedReader(new InputStreamReader(System.in));
-		System.out.print("Unos sa tastature: ");
-		String x = in.readLine();
-		System.out.printf("Ime: %s\n",x);*/
+		var in = new Scanner(System.in);
+		System.out.print("unesi ceo broj: ");
+		var x = in.nextInt();
+		System.out.println(x+7);
+		System.out.print("unesi realan broj: ");
+		var y = in.nextFloat();
+		System.out.println(y+7);
 	}
 
 }
