@@ -5,7 +5,7 @@ import java.io.*;
 public class Klasa1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		boolean a=true;
 		char b='a';
 		byte c=0b100011;
@@ -20,7 +20,8 @@ public class Klasa1 {
 		System.out.print(a);
 		System.out.printf("\nchar ce biti ispisan: %c\n",b);
 		System.out.println("celobrojne vrednosti: " + c + " " + d + " " + e + " " + f);
-		System.out.printf("ostali ce biti ispisani: %.2f , %.4f, %s\n\n ",g,h,s);
+		System.out.printf("ostali ce biti ispisani: %.2f , %.4f, %s\n",g,h,s);
+		System.out.println("nova linijaa\n");
 		
 		/*var in = new BufferedReader(new InputStreamReader(System.in));
 		System.out.print("Unos sa tastature: ");
