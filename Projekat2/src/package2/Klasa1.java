@@ -3,6 +3,7 @@ package package2;
 import java.io.*;
 import java.util.Scanner;
 
+
 public class Klasa1 {
 
 	public static void main(String[] args) throws IOException {
@@ -118,7 +119,7 @@ public class Klasa1 {
 			
 			System.out.printf("razlika povrsina je: %.5f \nzbir obima je: %.5f",
 					povrsinakvadrata-povrsinakruga, obimkvadrata+obimkruga );
-			
+			 //komentar
 	
 			
 	}
