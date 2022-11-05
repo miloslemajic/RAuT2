@@ -119,7 +119,7 @@ public class Klasa1 {
 			
 			System.out.printf("razlika povrsina je: %.5f \nzbir obima je: %.5f",
 					povrsinakvadrata-povrsinakruga, obimkvadrata+obimkruga );
-			 //komentar
+			 //komentar2
 	
 			
 	}
