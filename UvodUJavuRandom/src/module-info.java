@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author milos
+ *
+ */
+module UvodUJavuRandom {
+}
