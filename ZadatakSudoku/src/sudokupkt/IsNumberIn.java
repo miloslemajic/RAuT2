@@ -2,8 +2,8 @@ package sudokupkt;
 
 public class IsNumberIn {
 	
-	static boolean Row(int[][] board, int number, int row) {
-	    for (int i = 0; i < 9; i++) {
+	static boolean Row(int[][] board, int number, int row) { //proverava da li se broj number,
+	    for (int i = 0; i < 9; i++) {						//nalazi u datom redu
 	      if (board[row][i] == number) {
 	        return true;
 	      }
@@ -11,8 +11,8 @@ public class IsNumberIn {
 	    return false;
 	  }
 	  
-	  static boolean Column(int[][] board, int number, int column) {
-	    for (int i = 0; i < 9; i++) {
+	  static boolean Column(int[][] board, int number, int column) { //proverava da li se broj
+	    for (int i = 0; i < 9; i++) {								//nalazi u datoj koloni
 	      if (board[i][column] == number) {
 	        return true;
 	      }
@@ -20,8 +20,8 @@ public class IsNumberIn {
 	    return false;
 	  }
 	  
-	  static boolean Box(int[][] board, int number, int row, int column) {
-	    int localBoxRow = row - row % 3;
+	  static boolean Box(int[][] board, int number, int row, int column) { //proverava da li se
+	    int localBoxRow = row - row % 3;								//broj nalazi u 3x3 kutiji
 	    int localBoxColumn = column - column % 3;
 	    
 	    for (int i = localBoxRow; i < localBoxRow + 3; i++) {
