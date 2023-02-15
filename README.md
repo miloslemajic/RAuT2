@@ -1,2 +1,2 @@
 # RAuT2
-# Razvojni Alati u Telekomunikacijama 2
+Razvojni Alati u Telekomunikacijama 2
