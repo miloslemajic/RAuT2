@@ -1,2 +1,2 @@
-# РАуТ2
-Задаци и теорија
+# RAuT2
+# Razvojni Alati u Telekomunikacijama 2
